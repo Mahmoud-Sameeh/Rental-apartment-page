@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link href="/main.css" rel="stylesheet" type="text/css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row show">
+      <div class="col-md-4 show dashbored">
+        <div class="container-fluid">
+          <pre class="fontbig">
+    Rental
+                from $99
+                                per night  </pre>
+        </div>
+        <div class="container-fluid sidenav">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <i class="fa fa-sign-in" aria-hidden="true"></i>
+
+              <label for="checkin">check in</label>
+              <input required type="datetime" name="checkin" id="checkin" class="form-control" placeholder="yy-mm-dd"
+                aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="check_out">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+
+                check out</label>
+              <input required type="datetime" name="checkin" id="check_out" class="form-control" placeholder="yy-mm-dd"
+                aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="Adults">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                Adults</label>
+              <input required type="number" name="checkin" id="Adults" class="form-control" placeholder="yy-mm-dd"
+                aria-describedby="helpId" value="1">
+            </div>
+            <div class="form-group">
+              <label for="Kids">
+                <i class="fa fa-child" aria-hidden="true"></i>
+
+                Kids</label>
+              <input required type="number" name="Kids" id="Kids" class="form-control" placeholder="0"
+                aria-describedby="helpId">
+            </div>
+            <div class="form-group sub">
+              <button type="submit" class="btn btn-success DashboredForm">Success</button>
+            </div>
+            <hr>
+            <hr>
+          </form>
+
+
+          <div class=" Lastdash container-fluid">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            Apartment
+          </div>
+          <br>
+          <hr>
+          <div class="Lastdash container-fluid">
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+            Subscribe
+          </div>
+          <br>
+          <hr>
+          <div id="contact" class="Lastdash container-fluid">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+           <a href="#fff" id="dis"> Contact</a>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="col-md-8 show">
+        <div class="show mainimg container-fluid">
+          <h1>The Apartment</h1>
+          <div class="container-fluid">
+            <div class="w3-display-container  w3-gray">
+              <img class="imgbig0" src="https://www.w3schools.com/w3images/livingroom.jpg" alt="">
+              <div class="w3-display-bottomleft w3-container"></div>
+
+            </div>
+          </div>
+          <hr>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="imgbig" onclick="changeimg(event)" src="    https://www.w3schools.com/w3images/diningroom.jpg">
+              </div>
+              <div class="col-md-3">
+                <img class="imgbig" onclick="changeimg(event)" src="      https://www.w3schools.com/w3images/bedroom.jpg">
+              </div>
+              <div class="col-md-3">
+                <img class="imgbig" onclick="changeimg(event)" src="https://www.w3schools.com/w3images/livingroom2.jpg">
+
+              </div>
+              <div class="col-md-3">
+                <img class="imgbig" onclick="changeimg(event)" src=" https://www.w3schools.com/w3images/livingroom.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <br>
+            <header>The Space</header>
+            <div class="row " style="display:float">
+              <div class="col-md-6 " style="padding-left: 20%;">
+              * Max people: 4
+                <br>
+                <span></span>
+              * Bathrooms: 2
+               <br>
+              * Bedrooms: 1
+              </div>
+              <div class="col-md-6">
+              From:  Check In: After 3PM<br>
+
+              To : &nbsp;&nbsp; Check Out: 12PM
+              </div>
+            </div>
+          </div>
+          <br>
+  <div class="container-fluid">
+            <br>
+            <header>The Space</header>
+            <div class="row " style="display:float">
+              <div class="col-md-6 " style="padding-left: 20%;">
+              * Shower
+                <br>
+              * WiFi
+               <br>
+              * TV
+              </div>
+              <div class="col-md-6">
+               * Kitchen
+                <br>
+               * Heating
+                <br>
+               * Accessible
+              </div>
+            </div>
+          </div>
+          <br>
+  <div class="container-fluid">
+            <br>
+            <header>Extra Info </header>
+            <div class="row " style="display:float">
+              <div class="col-md-12 text">
+                Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+              <br>  We accept:                  </div>
+            </div>
+          </div>
+  <div class="container-fluid">
+            <br>
+            <header>Rules </header>
+            <div class="row " style="display:float">
+              <div class="col-md-12 text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <br><br> <p>
+                Subscribe to receive updates on available dates and special offers.
+
+              </p>
+            <br>
+            <br>
+            <button type="button" name="" id="" class="w3-button w3-teal">Subscribe</button>
+            </div>
+            <hr>
+            <header id="fff"name="contact">
+              Contact
+              <a id="contact"name="contact" href=""></a>
+            </header>
+            <br>
+            <br>
+
+            <p>Country,Region</p>
+            <p>Phone,+20 151555</p>
+            <p>Email,mail@mail.com</p>
+            <br>
+            <br>
+            <br>
+            <span>Questions? Go ahead, ask them:            </span>
+           <form>
+            <div class="form-group">
+              <label for=""></label>
+              <input type="text" name=""required id="" class="form-control" placeholder="Name" aria-describedby="helpId">
+            </div> <div class="form-group">
+              <label for=""></label>
+              <input type="text"required name="" id="" class="form-control" placeholder="Email" aria-describedby="helpId">
+            </div> <div class="form-group">
+              <label for=""></label>
+              <input type="text"required name="" id="" class="form-control" placeholder="Message" aria-describedby="helpId">
+            </div>
+            <br>
+            <div class="form-group">
+              <button class="w3-button w3-teal" type="submit">send a Messege</button>
+              <br>
+              <br>
+            </div>
+           </form>
+            </div>
+          </div>
+          <br>
+          <footer class="w3-grey " style="color: antiquewhite;" >Design Mahmoud Ali Sameeh</footer>
+        
+        </div>
+          <div class="container-fluid ddd">
+            <div class="callout show popup">
+              <div class="callout-header" style="text-align: center;">SUBSCRIBE</div>
+              <span style="text-align: right; padding-left: 90%;" class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+              <div class="callout-container">
+                <p style="text-align: center;">Join our mailing list to receive updates on available dates and special offers.
+<br>
+<div class="container">
+  <div class="form-group">
+    <input type="email" required name="" id="" class="form-control" placeholder=" Email" aria-describedby="helpId">
+  </div>
+  
+</div>
+<br>
+                  <button style="position: relative; left: 210px;" name=""  id="" class="btn btn-primary" href="#" role="button">subscribe</button>
+                <br>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+    </div>
+    <script> var exports = {}; </script>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
